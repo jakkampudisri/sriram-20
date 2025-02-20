@@ -10,7 +10,7 @@ process.env.JWT_SECRET = "your_jwt_secret";
 app.use(bodyParser.json());
 
 app.use(cors());
-
+//hello all
 const db = mysql.createConnection({
     host:"localhost",
     user:"root",
